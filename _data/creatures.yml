@@ -1,0 +1,29 @@
+- rank: Dormant
+  class: Beast
+  description:
+    text: "A weak animal with barely any enhancement."
+    min_chapter: 1
+  first_mention:
+    text: "Chapter 1"
+    chapter: 1
+  excerpt:
+    text: "It was barely more threatening than a normal wolf."
+    chapter: 2
+  notable_creatures:
+    - name: "Greyfang"
+      chapter: 2
+
+- rank: Awakened
+  class: Beast
+  description:
+    text: "A weak animal with barely any enhancement."
+    min_chapter: 1
+  first_mention:
+    text: "Chapter 1"
+    chapter: 1
+  excerpt:
+    text: "It was barely more threatening than a normal wolf."
+    chapter: 2
+  notable_creatures:
+    - name: "Greyfang"
+      chapter: 2
