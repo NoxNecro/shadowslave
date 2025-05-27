@@ -1,29 +1,749 @@
+#------------------------| DORMANT |------------------------#
 - rank: Dormant
   class: Beast
   description:
-    text: "A weak animal with barely any enhancement."
-    min_chapter: 1
+    text: ""
+    min_chapter: 
   first_mention:
-    text: "Chapter 1"
-    chapter: 1
+    text: "Mountain King's Larva"
+    chapter: 4
   excerpt:
-    text: "It was barely more threatening than a normal wolf."
-    chapter: 2
+    text: ""
+    chapter: 
   notable_creatures:
-    - name: "Greyfang"
-      chapter: 2
+    - name: "test"
+      chapter: 5
+    - name: "Mountain King's Larva"
+      chapter: 6
+
+- rank: Dormant
+  class: Monster
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: "It was time to kill another Dormant Monster. <br><br> 'How many have I killed, already?' <br><br> More than any Sleeper she knew, certainly. And more than many young Awakened in Ravenheart, as well, despite being mundane. <br><br> But she still had to be extremely cautious. She couldn't allow a single mistake... it was just like how her teacher always said. One mistake was all it took to turn into a corpse."
+    chapter: 1624
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+- rank: Dormant
+  class: Demon
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+- rank: Dormant
+  class: Devil
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+- rank: Dormant
+  class: Tyrant
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+- rank: Dormant
+  class: Terror
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+- rank: Dormant
+  class: Titan
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+#------------------------| AWAKENED |------------------------#
 
 - rank: Awakened
   class: Beast
   description:
-    text: "A weak animal with barely any enhancement."
-    min_chapter: 1
+    text: ""
+    min_chapter: 
   first_mention:
-    text: "Chapter 1"
-    chapter: 1
+    text: "Chapter "
+    chapter: 
   excerpt:
-    text: "It was barely more threatening than a normal wolf."
-    chapter: 2
+    text: ""
+    chapter: 
   notable_creatures:
-    - name: "Greyfang"
-      chapter: 2
+    - name: ""
+      chapter: 
+
+- rank: Awakened
+  class: Monster
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+- rank: Awakened
+  class: Demon
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+- rank: Awakened
+  class: Devil
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+- rank: Awakened
+  class: Tyrant
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+- rank: Awakened
+  class: Terror
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+- rank: Awakened
+  class: Titan
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+#------------------------| FALLEN |------------------------#
+
+- rank: Fallen
+  class: Beast
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+- rank: Fallen
+  class: Monster
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+- rank: Fallen
+  class: Demon
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+- rank: Fallen
+  class: Devil
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+- rank: Fallen
+  class: Tyrant
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+- rank: Fallen
+  class: Terror
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+- rank: Fallen
+  class: Titan
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+#------------------------| CORRUPTED |------------------------#
+
+- rank: Corrupted
+  class: Beast
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+- rank: Corrupted
+  class: Monster
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+- rank: Corrupted
+  class: Demon
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+- rank: Corrupted
+  class: Devil
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+- rank: Corrupted
+  class: Tyrant
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+- rank: Corrupted
+  class: Terror
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+- rank: Corrupted
+  class: Titan
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+#------------------------| GREAT |------------------------#
+
+- rank: Great
+  class: Beast
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+- rank: Great
+  class: Monster
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+- rank: Great
+  class: Demon
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+- rank: Great
+  class: Devil
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+- rank: Great
+  class: Tyrant
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+- rank: Great
+  class: Terror
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+- rank: Great
+  class: Titan
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+#------------------------| CURSED |------------------------#
+
+- rank: Cursed
+  class: Beast
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+- rank: Cursed
+  class: Monster
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+- rank: Cursed
+  class: Demon
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+- rank: Cursed
+  class: Devil
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+- rank: Cursed
+  class: Tyrant
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+- rank: Cursed
+  class: Terror
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+- rank: Cursed
+  class: Titan
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+#------------------------| UNHOLY |------------------------#
+
+- rank: Unholy
+  class: Beast
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+- rank: Unholy
+  class: Monster
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+- rank: Unholy
+  class: Demon
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+- rank: Unholy
+  class: Devil
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+- rank: Unholy
+  class: Tyrant
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+- rank: Unholy
+  class: Terror
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 
+
+- rank: Unholy
+  class: Titan
+  description:
+    text: ""
+    min_chapter: 
+  first_mention:
+    text: "Chapter "
+    chapter: 
+  excerpt:
+    text: ""
+    chapter: 
+  notable_creatures:
+    - name: ""
+      chapter: 

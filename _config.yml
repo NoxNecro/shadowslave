@@ -33,6 +33,25 @@ theme: minima
 plugins:
   - jekyll-feed
 
+collections:
+  posts:
+    output: true
+
+# Add this to your `defaults` if needed:
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Navigation (optional)
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "Table"
+    url: "/table"
+
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

@@ -6,7 +6,7 @@ title: Creature Table
 <h2>Creature Table (Spoiler Controlled)</h2>
 
 <label for="chapterInput">Your current chapter:</label>
-<input type="number" id="chapterInput" placeholder="e.g. 12" />
+<input type="number" id="chapterInput" placeholder="e.g. 12" value="1"/>
 
 <table id="creatureTable">
   <thead>
@@ -34,14 +34,19 @@ title: Creature Table
               <p data-chapter="{{ entry.first_mention.chapter }}">
                 <strong>First Mention:</strong> {{ entry.first_mention.text }}
               </p>
-              <p data-chapter="{{ entry.excerpt.chapter }}">
-                <strong>Excerpt:</strong> "{{ entry.excerpt.text }}"
-              </p>
-              <div class="notables-section" data-chapter="{{ entry.notable_creatures | map: 'chapter' | min }}">
+              <!-- Excerpt hover popup -->
+              <span class="excerpt-hover" data-chapter="{{ entry.excerpt.chapter }}">
+                <strong style="cursor: pointer; text-decoration: underline dotted;">Excerpt</strong>
+                <span class="excerpt-popup">
+                  "{{ entry.excerpt.text }}"
+                </span>
+              </span>
+              <!-- Notables toggle section -->
+              <div class="notables-section">
                 <p>
-                  <strong>Notables:</strong>
+                  <strong class="notables-toggle" style="cursor: pointer; text-decoration: underline dashed;">Notables</strong>
                 </p>
-                <ul>
+                <ul class="notables-list" style="display: none;">
                   {% for creature in entry.notable_creatures %}
                   <li data-chapter="{{ creature.chapter }}">{{ creature.name }}</li>
                   {% endfor %}
@@ -59,6 +64,33 @@ title: Creature Table
   </tbody>
 </table>
 
+<style>
+/* Excerpt hover popup styles */
+.excerpt-hover {
+  position: relative;
+  display: inline-block;
+}
+.excerpt-popup {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 1.5em;
+  z-index: 10;
+  background: #222;
+  color: #fff;
+  padding: 0.7em 1em;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  min-width: 200px;
+  max-width: 350px;
+  font-size: 0.95em;
+  white-space: normal;
+}
+.excerpt-hover:hover .excerpt-popup {
+  display: block;
+}
+</style>
+
 <script>
 function updateVisibility(userChapter) {
   document.querySelectorAll("td").forEach(td => {
@@ -68,30 +100,54 @@ function updateVisibility(userChapter) {
     if (contentDiv) {
       let hasVisibleContent = false;
       
-      // Check all content elements
+      // Check all content elements except notables
       const elementsToCheck = [
         ...contentDiv.querySelectorAll("p[data-chapter]"),
-        contentDiv.querySelector(".notables-section")
+        ...contentDiv.querySelectorAll(".excerpt-hover[data-chapter]")
       ];
       
       elementsToCheck.forEach(el => {
         if (!el) return;
-        
         const chapter = parseInt(el.dataset.chapter, 10);
         const shouldShow = chapter <= userChapter;
-        
-        // For notable sections, we need additional checks
-        if (el.classList.contains('notables-section')) {
-          const anyVisibleNotables = Array.from(el.querySelectorAll("li[data-chapter]"))
-            .some(li => parseInt(li.dataset.chapter, 10) <= userChapter);
-          el.style.display = anyVisibleNotables ? "" : "none";
-          if (anyVisibleNotables) hasVisibleContent = true;
-        } else {
-          el.style.display = shouldShow ? "" : "none";
-          if (shouldShow) hasVisibleContent = true;
-        }
+        el.style.display = shouldShow ? "" : "none";
+        if (shouldShow) hasVisibleContent = true;
       });
-      
+
+      // Handle notables section
+      const notablesSection = contentDiv.querySelector(".notables-section");
+      if (notablesSection) {
+        const notablesList = notablesSection.querySelector(".notables-list");
+        const notablesToggle = notablesSection.querySelector(".notables-toggle");
+        let anyVisibleNotable = false;
+        if (notablesList) {
+          // Show/hide each notable creature individually
+          Array.from(notablesList.querySelectorAll("li[data-chapter]")).forEach(li => {
+            const chapter = parseInt(li.dataset.chapter, 10);
+            // Hide if no name or no chapter
+            if (!li.textContent.trim() || isNaN(chapter)) {
+              li.style.display = "none";
+              return;
+            }
+            if (chapter <= userChapter) {
+              li.style.display = "";
+              anyVisibleNotable = true;
+            } else {
+              li.style.display = "none";
+            }
+          });
+          // Hide notables list if toggled closed (default), but only show toggle if any visible
+          if (!anyVisibleNotable) {
+            notablesSection.style.display = "none";
+          } else {
+            notablesSection.style.display = "";
+            hasVisibleContent = true;
+          }
+        } else {
+          notablesSection.style.display = "none";
+        }
+      }
+
       // Toggle N/A placeholder
       if (naPlaceholder) {
         naPlaceholder.style.display = hasVisibleContent ? "none" : "";
@@ -100,19 +156,29 @@ function updateVisibility(userChapter) {
   });
 }
 
-document.getElementById("chapterInput").addEventListener("input", function() {
-  const chapter = parseInt(this.value, 10);
-  if (!isNaN(chapter)) {
-    localStorage.setItem("userChapter", chapter);
-    updateVisibility(chapter);
-  }
-});
-
+// Add click toggling for notables
 document.addEventListener("DOMContentLoaded", function() {
   const saved = parseInt(localStorage.getItem("userChapter"), 10);
   if (!isNaN(saved)) {
     document.getElementById("chapterInput").value = saved;
     updateVisibility(saved);
+  }
+  // Notables toggle logic
+  document.querySelectorAll(".notables-toggle").forEach(function(toggle) {
+    toggle.addEventListener("click", function() {
+      const ul = this.closest(".notables-section").querySelector(".notables-list");
+      if (ul) {
+        ul.style.display = (ul.style.display === "none" || ul.style.display === "") ? "block" : "none";
+      }
+    });
+  });
+});
+
+document.getElementById("chapterInput").addEventListener("input", function() {
+  const chapter = parseInt(this.value, 10);
+  if (!isNaN(chapter)) {
+    localStorage.setItem("userChapter", chapter);
+    updateVisibility(chapter);
   }
 });
 </script>
