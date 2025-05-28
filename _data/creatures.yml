@@ -3,107 +3,96 @@
   class: Beast
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Mountain King's Larva"
-    chapter: 4
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
-    - name: "test"
-      chapter: 5
     - name: "Mountain King's Larva"
+      description: ""
       chapter: 6
 
 - rank: Dormant
   class: Monster
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
-    text: "It was time to kill another Dormant Monster. <br><br> 'How many have I killed, already?' <br><br> More than any Sleeper she knew, certainly. And more than many young Awakened in Ravenheart, as well, despite being mundane. <br><br> But she still had to be extremely cautious. She couldn't allow a single mistake... it was just like how her teacher always said. One mistake was all it took to turn into a corpse."
+    text: > 
+      It was time to kill another Dormant Monster. <br><br> 
+      'How many have I killed, already?' <br><br> 
+      More than any Sleeper she knew, certainly. And more than many young Awakened in Ravenheart, as well, despite being mundane. <br><br> 
+      But she still had to be extremely cautious. She couldn't allow a single mistake... it was just like how her teacher always said. One mistake was all it took to turn into a corpse.
+      - Rain, Chapter 1624: Crazy Girl
     chapter: 1624
   notable_creatures:
     - name: ""
+      description: ""
       chapter: 
 
 - rank: Dormant
   class: Demon
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
     - name: ""
+      description: ""
       chapter: 
 
 - rank: Dormant
   class: Devil
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
-    - name: ""
-      chapter: 
+    - name: "Unnamed Devil"
+      description: "killed by Cassie during her First Nightmare"
+      chapter: 104
 
 - rank: Dormant
   class: Tyrant
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
     - name: ""
+      description: ""
       chapter: 
 
 - rank: Dormant
   class: Terror
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
     - name: ""
+      description: ""
       chapter: 
 
 - rank: Dormant
   class: Titan
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
     - name: ""
+      description: ""
       chapter: 
 
 #------------------------| AWAKENED |------------------------#
@@ -112,105 +101,96 @@
   class: Beast
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
-    text: ""
-    chapter: 
+    text: >
+      Dormant humans are not supposed to be able to deal with awakened beasts, let alone monsters.
+      The fact that we can reliably kill scavengers is already abnormal!
+      <br>- Sunny, Chapter 50: Death Trap
+    chapter: 50
   notable_creatures:
-    - name: ""
-      chapter: 
+    - name: "Carapace Scavenger"
+      description: "A roughly two and a half meters tall creature with two enormous pincers and a body clad in chitinous armor."
+      chapter: 33
 
 - rank: Awakened
   class: Monster
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
     - name: ""
+      description: ""
       chapter: 
 
 - rank: Awakened
   class: Demon
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
-  excerpt:
+    min_chapter:excerpt:
     text: ""
     chapter: 
   notable_creatures:
-    - name: ""
-      chapter: 
+    - name: "Carapace Demon"
+      description: ""
+      chapter: 63
 
 - rank: Awakened
   class: Devil
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
     - name: ""
+      description: ""
       chapter: 
 
 - rank: Awakened
   class: Tyrant
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
-    - name: ""
-      chapter: 
+    - name: "Mountain King"
+      description: "Killed by Sunny in his First Nightmare, this tall furred creature had the ability to transform corpses into dormant beasts."
+      chapter: 2
 
 - rank: Awakened
   class: Terror
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
-    - name: ""
-      chapter: 
+    - name: "Soul Devouring Tree"
+      description: "Located on the Ashen Barrow in the Forgotten Shore, this creature has the ability to subdue others through a powerful mind hex."
+      chapter: 77    
+    - name: "Unnamed Terror"
+      description: "killed by Nephis in her First Nightmare"
+      chapter: 342
 
 - rank: Awakened
   class: Titan
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
     - name: ""
+      description: ""
       chapter: 
 
 #------------------------| FALLEN |------------------------#
@@ -219,106 +199,98 @@
   class: Beast
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
     - name: ""
+      description: ""
       chapter: 
 
 - rank: Fallen
   class: Monster
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
-    - name: ""
-      chapter: 
+    - name: "Spire Messenger/Cursed Herald"
+      description: "Located in the Forgotten Shore, these massive winged creatures with pale bodies and black feathers resided in the Crimson Spire."
+      chapter: 159
 
 - rank: Fallen
   class: Demon
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
     - name: ""
+      description: ""
       chapter: 
 
 - rank: Fallen
   class: Devil
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
-    - name: ""
-      chapter: 
+    - name: "Forsaken Knight"
+      description: "Located in the Ruined Cathedral in the Forgotten Shore and killed by Stone Saint in Chapter 272: Shadows and Darkness. <br><br>Had the ability to control True Darkness."
+      chapter: 272
+    - name: "Mordant Mimic"
+      description: "A long and adamantine chest with jagged teeth and emaciated limbs."
+      chapter: 420
 
 - rank: Fallen
   class: Tyrant
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
-    - name: ""
-      chapter: 
+    - name: "Lord of the Dead"
+      description: ""
+      chapter: 200
 
 - rank: Fallen
   class: Terror
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
-    - name: ""
-      chapter: 
+    - name: "Nameless Sun/Crimson Terror"
+      description: "Located in the Crimson Spire, this giant creature made of crimson coral and human flesh with hundreds of human faces guarded the gateway of the Forgotten Shore."
+      chapter: 150
 
 - rank: Fallen
   class: Titan
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
-    - name: ""
-      chapter: 
+    - name: "Defiled Seeker of Truth"
+      description: "A scaled beast with three long necks and three terrifying maws, this creature attacked the Southern Quadrant and was defeated by Saint Tyris."
+      chapter: 1118
+    - name: "Goliath"
+      description: "Resembling a small mountain, this Fallen Titan was a minor shard of the Stone Titan fought by Ariel."
+      chapter: 1031
 
 #------------------------| CORRUPTED |------------------------#
 
@@ -326,106 +298,95 @@
   class: Beast
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
     - name: ""
+      description: ""
       chapter: 
 
 - rank: Corrupted
   class: Monster
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
     - name: ""
+      description: ""
       chapter: 
 
 - rank: Corrupted
   class: Demon
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
     - name: ""
+      description: ""
       chapter: 
 
 - rank: Corrupted
   class: Devil
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
     - name: ""
+      description: ""
       chapter: 
 
 - rank: Corrupted
   class: Tyrant
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
-    - name: ""
-      chapter: 
+    - name: "Malignant Grave Root"
+      description: "This creature, also known as the Skull Centipede, was a gigantic centipede at least 100 meters long with two skeletal trees growing from its back."
+      chapter: 1091
+    - name: "Remnant of the Jade Queen"
+      description: "A jade creature resembling a monstrous beetle, easily thrice the size of the Rhino."
+      chapter: 857
 
 - rank: Corrupted
   class: Terror
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
-    - name: ""
-      chapter: 
+    - name: "Sybil of the Fallen Grace"
+      description: "Sybil of the Fallen Grace was a Corrupted Terror that used Mind Manipulation to lure people into its maw while making their companions forget them."
+      chapter: 893
 
 - rank: Corrupted
   class: Titan
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
-    - name: ""
-      chapter: 
+    - name: "Winter Beast"
+      description: "Located in the Southern Quadrant, this creature made of ice was the heart of the blizzard that raged across the Antarctic Center."
+      chapter: 986
 
 #------------------------| GREAT |------------------------#
 
@@ -433,106 +394,92 @@
   class: Beast
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
-    - name: ""
-      chapter: 
+    - name: "Azure Serpent"
+      description: "A large sea serpent that followed Sunny during his Third Nightmare."
+      chapter: 1239
 
 - rank: Great
   class: Monster
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
     - name: ""
+      description: ""
       chapter: 
 
 - rank: Great
   class: Demon
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
     - name: ""
+      description: ""
       chapter: 
 
 - rank: Great
   class: Devil
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
-    - name: ""
-      chapter: 
+    - name: "Vile Thieving Bird's Spawn"
+      description: ""
+      chapter: 80
 
 - rank: Great
   class: Tyrant
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
     - name: ""
+      description: ""
       chapter: 
 
 - rank: Great
   class: Terror
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
     - name: ""
+      description: ""
       chapter: 
 
 - rank: Great
   class: Titan
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
-    - name: ""
-      chapter: 
+    - name: "Dark Sea"
+      description: ""
+      chapter: 839
 
 #------------------------| CURSED |------------------------#
 
@@ -540,105 +487,91 @@
   class: Beast
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
     - name: ""
+      description: ""
       chapter: 
 
 - rank: Cursed
   class: Monster
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
     - name: ""
+      description: ""
       chapter: 
 
 - rank: Cursed
   class: Demon
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
     - name: ""
+      description: ""
       chapter: 
 
 - rank: Cursed
   class: Devil
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
     - name: ""
+      description: ""
       chapter: 
 
 - rank: Cursed
   class: Tyrant
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
-    - name: ""
-      chapter: 
+    - name: "Condemntaion"
+      description: "Located in Godgrave and standing several kilometers tall, this vaguely humanoid creature is the master of the asuras of Condemnation."
+      chapter: 1682
 
 - rank: Cursed
   class: Terror
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
     - name: ""
+      description: ""
       chapter: 
 
 - rank: Cursed
   class: Titan
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
     - name: ""
+      description: ""
       chapter: 
 
 #------------------------| UNHOLY |------------------------#
@@ -647,103 +580,89 @@
   class: Beast
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
     - name: ""
+      description: ""
       chapter: 
 
 - rank: Unholy
   class: Monster
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
     - name: ""
+      description: ""
       chapter: 
 
 - rank: Unholy
   class: Demon
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
     - name: ""
+      description: ""
       chapter: 
 
 - rank: Unholy
   class: Devil
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
     - name: ""
+      description: ""
       chapter: 
 
 - rank: Unholy
   class: Tyrant
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
     - name: ""
+      description: ""
       chapter: 
 
 - rank: Unholy
   class: Terror
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
     - name: ""
+      description: ""
       chapter: 
 
 - rank: Unholy
   class: Titan
   description:
     text: ""
-    min_chapter: 
-  first_mention:
-    text: "Chapter "
-    chapter: 
+    min_chapter:
   excerpt:
     text: ""
     chapter: 
   notable_creatures:
-    - name: ""
-      chapter: 
+    - name: "Stone Titan"
+      description: "Stone Titan was the Unholy Titan battled by Ariel."
+      chapter: 1247

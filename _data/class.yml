@@ -1,0 +1,49 @@
+- class: Beast
+  description: >
+    "Nightmare Creatures with one soul core were called "beasts". They were dangerous and strong, but mindless" - Chapter 44: Cassie's Dream
+    <br><br>
+    Beasts are the lowest class of Nightmare Creatures and show no sign of higher intelligence.
+
+- class: Monster
+  description: >
+    If [Beasts] were able to develop or were created with a second core, they became "monsters". Monsters were much more devastating and possessed some rudimentary, warped form of intelligence. - Chapter 44: Cassie's Dream
+    <br><br>
+    Monsters are the second lowest class of Nightmare Creatures and show some form of intelligence.
+
+- class: Demon
+  description: >
+    "In retrospect, the idea of making steaks out of a creature whose intelligence was comparable to theirs did seem a little wrong. Even if that creature was a bloodthirsty demon who would have swallowed them whole without a second thought." - Chapter  73: The Circle of Death"
+    <br><br>
+    Demons are the third class, and creatures of this class possess intelligence comparable to humans and can acquire one or more abilities.
+
+- class: Devil
+  description: >
+    "Unlike Nightmare Creatures of lower ranks, devils had access to bizarre and harrowing powers that were akin to the Aspect Abilities of the Awakened. That was what made them so dangerous," - Chapter 266: The Devil You Know
+    <br>
+    "Devils were sentient, intelligent, and cunning. They also wielded unholy powers, much like Awakened wielded Aspect Abilities." - Chapter 2343: Game of the World Tree
+    <br><br>
+    Devils are the fourth class, and Creatures of this class have intelligence comparable to humans and possess unnatural powers.
+
+- class: Tyrant
+  description: >
+    "the creature had clearly just created a lesser version of itself — an ability that belonged exclusively to tyrants, the sovereigns of the Nightmare Spell, and those above them." - Chapter 4: Mountain King
+    <br>
+    "Just as a Fallen Tyrant was not supposed to be able to create minions of the same Rank, a Fallen Terror was most likely not capable of such feat either." - Chapter 328: Siege of the Crimson Spire (14)
+    <br><br>
+    The fifth class, Tyrants, can create and control armies of lesser minions.
+    <br><br>
+    "Some of them were Awakened, some were Fallen, and a few larger ones were even Corrupted." - Chapter 857: Jade Beetle
+    <br>
+    Some Tyrants have the ability to create minions of the same rank.
+
+- class: Terror
+  description: >
+    "as an Awakened Terror, the dreadful steed could only influence one castle and its surroundings."
+    <br>
+    "If he was right, the whole Labyrinth was a giant maw with which the Terror absorbed the soul essence of every creature that bled on the coral before it died. <br> It was all a part of its body." - Chapter 283: Final Pieces of the Puzzle
+    <br><br>
+    As the second highest class, Terrors are capable of exerting influence over the space around them.
+
+- class: Titan
+  description: >
+    As the highest class, Titans are also known as 'Calamities'. They are colossal living creatures and their scale was so boundless that they seemed like forces of nature.

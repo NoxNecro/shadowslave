@@ -31,9 +31,7 @@ title: Creature Table
               <p data-chapter="{{ entry.description.min_chapter }}">
                 <em>{{ entry.description.text }}</em>
               </p>
-              <p data-chapter="{{ entry.first_mention.chapter }}">
-                <strong>First Mention:</strong> {{ entry.first_mention.text }}
-              </p>
+              <!-- Removed First Mention field -->
               <!-- Excerpt hover popup -->
               <span class="excerpt-hover" data-chapter="{{ entry.excerpt.chapter }}">
                 <strong style="cursor: pointer; text-decoration: underline dotted;">Excerpt</strong>
@@ -48,7 +46,14 @@ title: Creature Table
                 </p>
                 <ul class="notables-list" style="display: none;">
                   {% for creature in entry.notable_creatures %}
-                  <li data-chapter="{{ creature.chapter }}">{{ creature.name }}</li>
+                    <li data-chapter="{{ creature.chapter }}">
+                      <span class="notable-hover" style="cursor: pointer; text-decoration: underline dotted;">
+                        {{ creature.name }}
+                        <span class="notable-popup">
+                          "{{ creature.description }}"
+                        </span>
+                      </span>
+                    </li>
                   {% endfor %}
                 </ul>
               </div>
@@ -89,6 +94,47 @@ title: Creature Table
 .excerpt-hover:hover .excerpt-popup {
   display: block;
 }
+
+/* Notable hover popup styles */
+.notable-hover {
+  position: relative;
+  display: inline-block;
+}
+.notable-popup {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 1.5em;
+  z-index: 10;
+  background: #222;
+  color: #fff;
+  padding: 0.7em 1em;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  min-width: 200px;
+  max-width: 350px;
+  font-size: 0.95em;
+  white-space: normal;
+}
+.notable-hover:hover .notable-popup {
+  display: block;
+}
+
+.notables-list {
+  padding-left: 1.2em; /* Ensures bullets align correctly */
+  list-style-position: outside; /* Default, but explicit is better */
+}
+
+.notables-list li {
+  display: list-item;
+  vertical-align: top;
+}
+
+.notables-list li .notable-hover {
+  display: inline-block;
+  vertical-align: top;
+}
+
 </style>
 
 <script>
@@ -170,6 +216,30 @@ document.addEventListener("DOMContentLoaded", function() {
       if (ul) {
         ul.style.display = (ul.style.display === "none" || ul.style.display === "") ? "block" : "none";
       }
+    });
+  });
+
+  // Notables popup logic
+  document.querySelectorAll(".notable-hover").forEach(function(span) {
+    span.addEventListener("click", function(event) {
+      event.stopPropagation();
+      // Hide any other open popups
+      document.querySelectorAll(".notable-popup").forEach(function(popup) {
+        if (popup !== span.querySelector(".notable-popup")) {
+          popup.style.display = "none";
+        }
+      });
+      const popup = span.querySelector(".notable-popup");
+      if (popup) {
+        popup.style.display = (popup.style.display === "block") ? "none" : "block";
+      }
+    });
+  });
+
+  // Hide popup when clicking outside
+  document.addEventListener("click", function() {
+    document.querySelectorAll(".notable-popup").forEach(function(popup) {
+      popup.style.display = "none";
     });
   });
 });
