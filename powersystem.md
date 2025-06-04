@@ -3,18 +3,9 @@ layout: default
 title: Power System
 ---
 
-## Introduction
-I'm Nox, a fan and reader of Shadow Slave, just like you.<br>
 
-And if _you_ are anything like _me_, then you might have run into some trouble understanding the power system of Shadow Slave, as it is as well crafted and in depth as it is hard to understand.<br>
-
-I noticed that, as I got further and further into the novel, I relied more and more on directly being told how strong certain beings were in comparison to our heroes. <br>
-
-I noticed that I didn't feel the tension I was supposed to feel when sunny entered his next big fight until I was told just how strong his enemy was. <br>
-
-It is for that reason that I have collected and summarized all important parts of the power system that have been either mentioned in the novel or by Guiltythree himself. <br>
-
-On this page a list of events from the novels and
+### Introduction
+On this page you'll find quotes, explanations and
 <span class="excerpt-hover">
     <strong style="cursor: pointer; text-decoration: underline dotted;">Q&A's</strong>
     <span class="excerpt-popup">
@@ -24,10 +15,10 @@ On this page a list of events from the novels and
 </span>
 from the [discord](https://discord.gg/guiltythree) will be shown, with explanations where they are necessary. <br>
 
-I'd also like to thank everyone in the discord for answering any of the (sometimes quite stupid) questions I had. If you have any unanswered questions by the end of this explanation, be sure to ask there! <br>
+This explanation will mostly consist of explanations on ranks and classes, though there will be some quick mentions on topics such as memories, echoes and other sources of power. <br>
 
-That being said, I hope this will help you as much as it did me! <br>
-<br>
+I'll try to minimize the amount of lore (outside of what is necessary for a full understanding of the power system, of course) I give on this page. <br><br>
+
 
 ## Ranks vs Classes
 Ranks and Classes seem, at first glance, very similar as they both increase the power of the owner, right? Well, not quite. <br>
@@ -41,10 +32,10 @@ For humans I'll mostly be mentioning their power in the context of the
 <span class="excerpt-hover">
     <strong style="cursor: pointer; text-decoration: underline dotted;">Nightmare Spell</strong>
     <span class="excerpt-popup">
-        The Nightmare Spell allows 
+        The Nightmare Spell allows humans to grow stronger through conquering Nightmares, instead of having to follow the 'ancient' path which relied on training yourself.
     </span>
-</span>, 
-instead of through the 'normal' method as that is the way (most) of our main cast grows. <br> 
+</span>,
+as that is the way (most of) our main cast grows. <br> 
 
 The next thing you need to understand is that the Path of Ascension is a mirror of the Path of Corruption and vice versa.
 
